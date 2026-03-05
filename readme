@@ -1,0 +1,62 @@
+Используем современный стек:
+
+Python
+FastAPI
+PostgreSQL
+SQLAlchemy
+JWT Authentication
+Docker (позже)
+2. Архитектура проекта
+banking_api/
+
+app/
+    main.py
+
+    core/
+        config.py
+        security.py
+
+    database.py
+
+    models/
+        user.py
+        account.py
+        transaction.py
+
+    schemas/
+        user.py
+        account.py
+        transaction.py
+
+    routers/
+        auth.py
+        users.py
+        accounts.py
+        transactions.py
+
+    services/
+        account_service.py
+        transaction_service.py
+Это профессиональная архитектура, похожая на реальный backend.
+
+3. Функции системы
+Пользователь
+регистрация
+
+login
+
+JWT токен
+
+Счёт
+создать счёт
+
+посмотреть баланс
+
+список счетов пользователя
+
+Транзакции
+перевод денег
+
+история операций
+
+4. Database схема
