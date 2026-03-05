@@ -1,0 +1,20 @@
+banking_api/
+
+app/
+    main.py
+    database.py
+
+    models/
+        user.py
+        account.py
+        transaction.py
+
+    routers/
+        auth.py
+        accounts.py
+        transactions.py
+
+    schemas/
+        user.py
+        account.py
+        transaction.py
