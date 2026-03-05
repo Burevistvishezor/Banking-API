@@ -60,3 +60,27 @@ JWT токен
 история операций
 
 4. Database схема
+# Banking API
+
+Backend banking system built with FastAPI.
+
+Tech stack:
+
+- Python
+- FastAPI
+- PostgreSQL
+- SQLAlchemy
+- JWT Authentication
+- Docker
+
+Features:
+
+- User registration
+- Authentication (JWT)
+- Account management
+- Money transfers
+- Transaction history
+
+Run project:
+
+docker-compose up
