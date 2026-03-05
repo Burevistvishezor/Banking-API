@@ -18,3 +18,10 @@ app/
         user.py
         account.py
         transaction.py
+Banking API built with FastAPI and PostgreSQL.
+
+Features:
+- user registration
+- account management
+- money transfers
+- transaction history
