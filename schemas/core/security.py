@@ -23,3 +23,4 @@ def create_access_token(data: dict):
     )
 
     return encoded_jwt
+    core/security.py
